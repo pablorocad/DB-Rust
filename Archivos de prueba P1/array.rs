@@ -106,3 +106,285 @@ fn main () {
         }
     }
 }
+
+/* salida */
+/*
+Imprimir grupos
+["Grupo A", "Grupo B", "Grupo C", "Grupo D", "Grupo E"]
+Imprimir equipos
+[["Manchester City", "PSG", "RB Leipzig", "Club Brujas"], ["Liberpool", "Atletico de Madrid", "Porto", "Milan"], ["Ajax", "Sporting Lisboa", "Dortmund", "Besiktas"], ["Real Madrid", "Inter", "Sheriff", "Shaktar"], ["Bayern", "Benfica", "Barcelona", "Dinamo"]]
+Imprimir equipos
+["Manchester City", "PSG", "RB Leipzig", "Club Brujas"]
+["Liberpool", "Atletico de Madrid", "Porto", "Milan"]
+["Ajax", "Sporting Lisboa", "Dortmund", "Besiktas"]
+["Real Madrid", "Inter", "Sheriff", "Shaktar"]
+["Bayern", "Benfica", "Barcelona", "Dinamo"]
+
+Imprimir Equipos por grupo
+
+Grupo A -> Manchester City
+Grupo A -> PSG
+Grupo A -> RB Leipzig
+Grupo A -> Club Brujas
+
+Grupo B -> Liberpool
+Grupo B -> Atletico de Madrid
+Grupo B -> Porto
+Grupo B -> Milan
+
+Grupo C -> Ajax
+Grupo C -> Sporting Lisboa
+Grupo C -> Dortmund
+Grupo C -> Besiktas
+
+Grupo D -> Real Madrid
+Grupo D -> Inter
+Grupo D -> Sheriff
+Grupo D -> Shaktar
+
+Grupo E -> Bayern
+Grupo E -> Benfica
+Grupo E -> Barcelona
+Grupo E -> Dinamo
+
+
+Simulador de partidos
+
+Grupo A -> Equipo1: Manchester City 2 vs Equipo2: PSG 1
+Grupo A -> Equipo1: Manchester City 2 vs Equipo2: RB Leipzig 4
+Grupo A -> Equipo1: Manchester City 2 vs Equipo2: Club Brujas 2
+Grupo A -> Equipo1: PSG 5 vs Equipo2: RB Leipzig 4
+Grupo A -> Equipo1: PSG 5 vs Equipo2: Club Brujas 2
+Grupo A -> Equipo1: RB Leipzig 6 vs Equipo2: Club Brujas 2
+
+Grupo B -> Equipo1: Liberpool 2 vs Equipo2: Atletico de Madrid 1
+Grupo B -> Equipo1: Liberpool 2 vs Equipo2: Porto 4
+Grupo B -> Equipo1: Liberpool 2 vs Equipo2: Milan 2
+Grupo B -> Equipo1: Atletico de Madrid 5 vs Equipo2: Porto 4
+Grupo B -> Equipo1: Atletico de Madrid 5 vs Equipo2: Milan 2
+Grupo B -> Equipo1: Porto 6 vs Equipo2: Milan 2
+
+Grupo C -> Equipo1: Ajax 2 vs Equipo2: Sporting Lisboa 1
+Grupo C -> Equipo1: Ajax 2 vs Equipo2: Dortmund 4
+Grupo C -> Equipo1: Ajax 2 vs Equipo2: Besiktas 2
+Grupo C -> Equipo1: Sporting Lisboa 5 vs Equipo2: Dortmund 4
+Grupo C -> Equipo1: Sporting Lisboa 5 vs Equipo2: Besiktas 2
+Grupo C -> Equipo1: Dortmund 6 vs Equipo2: Besiktas 2
+
+Grupo D -> Equipo1: Real Madrid 2 vs Equipo2: Inter 1
+Grupo D -> Equipo1: Real Madrid 2 vs Equipo2: Sheriff 4
+Grupo D -> Equipo1: Real Madrid 2 vs Equipo2: Shaktar 2
+Grupo D -> Equipo1: Inter 5 vs Equipo2: Sheriff 4
+Grupo D -> Equipo1: Inter 5 vs Equipo2: Shaktar 2
+Grupo D -> Equipo1: Sheriff 6 vs Equipo2: Shaktar 2
+
+Grupo E -> Equipo1: Bayern 2 vs Equipo2: Benfica 1
+Grupo E -> Equipo1: Bayern 2 vs Equipo2: Barcelona 4
+Grupo E -> Equipo1: Bayern 2 vs Equipo2: Dinamo 2
+Grupo E -> Equipo1: Benfica 5 vs Equipo2: Barcelona 4
+Grupo E -> Equipo1: Benfica 5 vs Equipo2: Dinamo 2
+Grupo E -> Equipo1: Barcelona 6 vs Equipo2: Dinamo 2
+
+
+Imprimir estadisticas realeas
+
+Grupo A -> Manchester City
+Partidos jugados
+6
+Partidos ganados
+4
+Partidos empatados
+0
+Partidos perdidos
+2
+
+Grupo A -> PSG
+Partidos jugados
+6
+Partidos ganados
+3
+Partidos empatados
+2
+Partidos perdidos
+1
+
+Grupo A -> RB Leipzig
+Partidos jugados
+6
+Partidos ganados
+2
+Partidos empatados
+1
+Partidos perdidos
+3
+
+Grupo A -> Club Brujas
+Partidos jugados
+6
+Partidos ganados
+1
+Partidos empatados
+1
+Partidos perdidos
+4
+
+Grupo B -> Liberpool
+Partidos jugados
+6
+Partidos ganados
+6
+Partidos empatados
+0
+Partidos perdidos
+0
+
+Grupo B -> Atletico de Madrid
+Partidos jugados
+6
+Partidos ganados
+2
+Partidos empatados
+1
+Partidos perdidos
+3
+
+Grupo B -> Porto
+Partidos jugados
+6
+Partidos ganados
+1
+Partidos empatados
+2
+Partidos perdidos
+3
+
+Grupo B -> Milan
+Partidos jugados
+6
+Partidos ganados
+1
+Partidos empatados
+1
+Partidos perdidos
+4
+
+Grupo C -> Ajax
+Partidos jugados
+6
+Partidos ganados
+6
+Partidos empatados
+0
+Partidos perdidos
+0
+
+Grupo C -> Sporting Lisboa
+Partidos jugados
+6
+Partidos ganados
+3
+Partidos empatados
+0
+Partidos perdidos
+3
+
+Grupo C -> Dortmund
+Partidos jugados
+6
+Partidos ganados
+3
+Partidos empatados
+0
+Partidos perdidos
+3
+
+Grupo C -> Besiktas
+Partidos jugados
+6
+Partidos ganados
+0
+Partidos empatados
+0
+Partidos perdidos
+6
+
+Grupo D -> Real Madrid
+Partidos jugados
+6
+Partidos ganados
+5
+Partidos empatados
+0
+Partidos perdidos
+1
+
+Grupo D -> Inter
+Partidos jugados
+6
+Partidos ganados
+3
+Partidos empatados
+1
+Partidos perdidos
+2
+
+Grupo D -> Sheriff
+Partidos jugados
+6
+Partidos ganados
+2
+Partidos empatados
+1
+Partidos perdidos
+3
+
+Grupo D -> Shaktar
+Partidos jugados
+6
+Partidos ganados
+0
+Partidos empatados
+2
+Partidos perdidos
+4
+
+Grupo E -> Bayern
+Partidos jugados
+6
+Partidos ganados
+6
+Partidos empatados
+0
+Partidos perdidos
+0
+
+Grupo E -> Benfica
+Partidos jugados
+6
+Partidos ganados
+2
+Partidos empatados
+2
+Partidos perdidos
+2
+
+Grupo E -> Barcelona
+Partidos jugados
+6
+Partidos ganados
+2
+Partidos empatados
+1
+Partidos perdidos
+3
+
+Grupo E -> Dinamo
+Partidos jugados
+6
+Partidos ganados
+0
+Partidos empatados
+1
+Partidos perdidos
+5
+*/

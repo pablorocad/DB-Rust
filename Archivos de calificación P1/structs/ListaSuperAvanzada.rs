@@ -261,3 +261,46 @@ fn main(){
     
 
 }
+
+
+/*
+Primero: -1,  Ultimo: -1, Tamaño: 0
+---Insertar al inicio---
+---Insertar al final---
+---Insertar al inicio---
+---Insertar en posicion 2---
+---Insertar al inicio---
+---Insertar al final---
+---Insertar al inicio---
+---Insertar en posicion 4---
+Primero: 6,  Ultimo: 5, Tamaño: 8
+val: 10 indice: 0 right: 7 left: 2
+val: 9 indice: 1 right: 3 left: 7
+val: 7 indice: 2 right: 0 left: 4
+val: 8 indice: 3 right: 5 left: 1
+val: 6 indice: 4 right: 2 left: 6
+val: 5 indice: 5 right: -1 left: 3
+val: 4 indice: 6 right: 4 left: -1
+val: 3 indice: 7 right: 1 left: 0
+
+Imprimir desde inicio
+Val|| de nodo: 4 
+Val|| de nodo: 6 
+Val|| de nodo: 7 
+Val|| de nodo: 10 
+Val|| de nodo: 3 
+Val|| de nodo: 9 
+Val|| de nodo: 8 
+Val|| de nodo: 5 
+
+Imprimir desde fin
+Val|| de nodo: 5 
+Val|| de nodo: 8 
+Val|| de nodo: 9 
+Val|| de nodo: 3 
+Val|| de nodo: 10 
+Val|| de nodo: 7 
+Val|| de nodo: 6 
+Val|| de nodo: 4 
+
+*/

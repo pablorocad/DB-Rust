@@ -1,8 +1,8 @@
 
 fn fibonacci(n: i64) -> i64 {
     match n {
-        0 => 1,
-        1 => 1,
+        0 => return 1,
+        1 => return 1,
         _ => return fibonacci(n - 1) + fibonacci(n - 2),
     }
 }

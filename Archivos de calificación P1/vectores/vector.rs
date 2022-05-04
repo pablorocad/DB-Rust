@@ -112,3 +112,73 @@ fn main() {
     println!("{}", vec.contains(&"Semestre") && vec.contains(&"2023"));
     println!("{}", vec.contains(&"Hola"));
 }
+
+
+/*
+
+[10, 20, 30, 40, 50]
+50
+300
+200
+100
+40
+30
+20
+10
+La pila no tiene elementos
+0
+[]
+Capacidad de pila
+8
+
+[1, 2, 3, 4, 5, 800]
+1
+2
+3
+4
+5
+800
+100
+200
+300
+[]
+Capacidad de cola
+10
+
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [75, 23, 10, 29, 30, 12, 49, 10, 93]]
+
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+[75, 23, 10, 29, 30, 12, 49, 10, 93]
+93
+
+true
+false
+true
+
+*/
+
+
+
+
+{
+ int i; int j; float v; float x; float[100] a;
+ while( true ) {
+ do {
+     i = i+1 + 5 + 8+10+15+20; 
+ }while( a[i] < v);
+ do {
+     j =j-1;
+ } while( a[j] > v && 1>4);
+ if( i >= j ) break;
+ x = a[i]; 
+ a[i] = a[j]; 
+ a[j] = x;
+}
+}
+
+
+
+Nombre - presente - Generación de código intermedio - carnet

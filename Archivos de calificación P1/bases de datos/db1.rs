@@ -109,3 +109,40 @@ fn main() {
     tienda::ventas::select_venta_por_id(&vector,5);
     tienda::ventas::select_venta_por_id(&vector,6);
 }
+
+
+/*
+La tabla ventas ha sido creada
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+Valor nuevo agregado a tabla ventas
+total: 15 cliente: Hector
+total: 8200 cliente: Rony
+total: 864 cliente: Roberto
+total: 34 cliente: Sergio
+total: 82 cliente: Elizabeth
+Valor eliminado: 1
+Valor eliminado: 11
+total: 15 cliente: Hector
+total: 3 cliente: Lidia
+total: 864 cliente: Roberto
+total: 34 cliente: Sergio
+total: 82 cliente: Elizabeth
+Valor editado: 3
+Valor editado: 2
+total: 21 cliente: Haroldo
+total: 1234 cliente: Sara
+total: 1 cliente: Analu
+total: 986 cliente: Maria
+
+*/

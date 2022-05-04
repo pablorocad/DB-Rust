@@ -1,18 +1,18 @@
 
-fn fibonacci(n: u32) -> u32 {
+fn fibonacci(n: i64) -> i64 {
     match n {
         0 => 1,
         1 => 1,
-        _ => fibonacci(n - 1) + fibonacci(n - 2),
+        _ => return fibonacci(n - 1) + fibonacci(n - 2),
     }
 }
 
 
-fn hanoi(n: i32, desde: i32, hacia: i32, via: i32) {
+fn hanoi(n: i64, desde: i64, hacia: i64, via: i64) {
     if n > 0 {
-        hanoi(n - 1, desde, via, hacia);
+        return hanoi(n - 1, desde, via, hacia);
         println!("Mover disco de palo {} a palo {}", desde, hacia);
-        hanoi(n - 1, via, hacia, desde);
+        return hanoi(n - 1, via, hacia, desde);
     }
 }
  

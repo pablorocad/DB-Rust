@@ -10,9 +10,9 @@ fn fibonacci(n: i64) -> i64 {
 
 fn hanoi(n: i64, desde: i64, hacia: i64, via: i64) {
     if n > 0 {
-        return hanoi(n - 1, desde, via, hacia);
+        hanoi(n - 1, desde, via, hacia);
         println!("Mover disco de palo {} a palo {}", desde, hacia);
-        return hanoi(n - 1, via, hacia, desde);
+        hanoi(n - 1, via, hacia, desde);
     }
 }
  
